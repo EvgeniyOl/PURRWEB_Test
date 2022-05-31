@@ -4,7 +4,133 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans:regular,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Landing</title>
   </head>
-  <body></body>
+
+  <body>
+    <div class="header">
+      <div class="container header__container">
+        <div class="header__logo-block">
+          <img src="./images/cube.png" alt="logo-image" class="header__logo" />
+          <img src="./images/NoTab.svg" class="header__logo-name" />
+        </div>
+        <div class="login__block">
+          <img
+            src="./images/loginImg.svg"
+            alt="loginIcon"
+            class="header__login-img"
+          />
+          <a href="" class="header__login">Login</a>
+        </div>
+      </div>
+    </div>
+
+    <main class="main">
+      <div class="main__tittle-and-phone-section container">
+        <div class="main__left-text-block">
+          <h1>
+            A platform<br />
+            that works smarter
+          </h1>
+          <div class="main__line-and-paragr">
+            <img class="line-img" src="./images/Line 1.svg" alt="" />
+            <p>
+              NoTab allows bars & nightclubs to manage, understand, and grow
+              their business from a single dashboard
+            </p>
+          </div>
+        </div>
+        <div class="main__right-image-block">
+          <img src="./images/iPhone X image.svg" alt="" />
+        </div>
+      </div>
+      <div class="main__tittle-and-phone-section-footer">
+        <h2 class="main__tittle-and-phone-section-footer-h2">
+          DOWNLOAD OUR APP
+        </h2>
+        <div class="footer-images">
+          <img class="apple-image" src="./images/apple.svg" alt="" />
+          <img class="gplay-image" src="./images/gplay.svg" alt="" />
+        </div>
+      </div>
+      <div id="cookies" class="main__cookies">
+        <p>
+          We use cookie to improve your experience on our site. By using our
+          site you consent cookies.
+        </p>
+        <button id="closedCookies" onclick="closedCookies()">OK</button>
+      </div>
+
+      <div class="main__ourmission-section container">
+        <div class="main__ourmission-section-2cards">
+          <div class="main__ourmission-card1">
+            <h2>Would like to become a member, please contact us</h2>
+            <a href="support@notab.com">support@notab.com</a>
+          </div>
+          <div class="main__ourmission-card2">
+            <h2>Already a partner?</h2>
+            <a href="#">Login</a>
+          </div>
+        </div>
+      </div>
+      <div class="main__ourmission-section-image-and-tittle">
+        <img
+          src="./images/iPhone X image1:2.svg"
+          class="main__ourmission-section-image1-2"
+        />
+        <div class="main__ourmission-section-tittle">
+          <h2>Our mission and vision</h2>
+          <p>
+            While technology is our sweet spot, we’ve developed our vision
+            alongside our customers to ensure your everyday problems are solved
+            through simplistic tools. And as your business grows, we’ll grow
+            right alongside with you.
+          </p>
+        </div>
+        <img
+          src="./images/iPhone X image.svg"
+          class="main__ourmission-section-image1"
+        />
+      </div>
+
+      <div class="main__id-scaner-section">
+        <div class="main__id-scaner-2-image-and-tittle">
+          <img
+            class="main__id-scaner-2-image-left"
+            src="./images/iPhone X image-left.svg"
+            alt=""
+          />
+          <img
+            class="main__id-scaner-2-image-right"
+            src="./images/iPhone X image-right.svg"
+            alt=""
+          />
+
+          <div class="main__id-scaner-tittle">
+            <h2>ID Scanner</h2>
+            <p>
+              Scan, verify, and collect data on each person that walks through
+              your door to humanize your data. You also get a digital 86 list as
+              well as a citywide ban list to keep your venue safe.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <footer class="footer">footer</footer> -->
+    <script src="./js/index.js"></script>
+  </body>
 </html>
