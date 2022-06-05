@@ -338,6 +338,7 @@ p {
   margin-left: 55px;
   margin-bottom: 20px;
   width: 330px;
+  min-height: 100px;
 }
 .main__ourmission-card1 a {
   margin-left: 55px;
@@ -397,21 +398,21 @@ p {
 @media (max-width: 1440px) {
   .main__ourmission-card1 {
     width: calc(330px + (503 - 330) * ((100vw - 320px) / (1440 - 320)));
+    height: calc(230px + (312 - 230) * ((100vw - 320px) / (1440 - 320)));
   }
   .main__ourmission-card2 {
     width: calc(330px + (503 - 330) * ((100vw - 320px) / (1440 - 320)));
-  }
-  .main__ourmission-card1 {
     height: calc(230px + (312 - 230) * ((100vw - 320px) / (1440 - 320)));
+    text-align: left;
   }
-  .main__ourmission-card2 {
-    height: calc(230px + (312 - 230) * ((100vw - 320px) / (1440 - 320)));
-  }
-  .main__ourmission-card2 h2 {
+  .main__ourmission-card2 h3 {
     font-size: calc(24px + (35 - 24) * ((100vw - 320px) / (1440 - 320)));
   }
-  .main__ourmission-card1 h2 {
+  .main__ourmission-card1 h3 {
     font-size: calc(24px + (35 - 24) * ((100vw - 320px) / (1440 - 320)));
+    width: calc(250px + (330 - 250) * ((100vw - 320px) / (1440 - 320)));
+    margin-top: calc(24px + (70 - 24) * ((100vw - 320px) / (1440 - 320)));
+    margin-left: calc(24px + (55 - 24) * ((100vw - 320px) / (1440 - 320)));
   }
 }
 
@@ -903,6 +904,9 @@ p {
     position: static;
     width: calc(180px + (332 - 180) * ((100vw - 320px) / (1440 - 320)));
     order: 4;
+  }
+  .iphone-min {
+    width: calc(180px + (332 - 180) * ((100vw - 320px) / (1440 - 320)));
   }
   .qr-scan-arrow-and-text {
     position: static;
